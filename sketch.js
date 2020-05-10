@@ -9,7 +9,7 @@ function setup() {
   wall = createSprite(800, 200, 60, 400);
   
 
-  bullet = createSprite(10, 200, 10, 10);
+  bullet = createSprite(10, 200, 10, 5);
   bullet.velocityX = bullet.velocityX + 10;
   bullet.shapeColor = "white";
 }
